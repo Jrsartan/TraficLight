@@ -15,17 +15,17 @@ function switchliht(){
     red.style.background="gray";
     yellow.style.background="yellow";
     green.style.background="gray";
-   },3000);
+   },4000);
 
 
  setInterval(function(){
     red.style.background="gray";
     yellow.style.background="gray";
     green.style.background=" rgb(17, 108, 17)";
- },5000);
+ },7000);
 
 
- setTimeout(switchliht,6000);
+ setTimeout(switchliht,9000);
 }
 
 switchliht();
